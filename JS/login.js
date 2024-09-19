@@ -10,7 +10,7 @@ document.getElementById('button-login').addEventListener('click',function(event)
 
    if(phoneNumber==='01791430459' && loginNumber==='1234' ){
     console.log(" You're logged in");
-    window.location.href="../homePage.html";
+    window.location.href="/Payoo-banking//homePage.html";
    }
    else{
     alert("Wrong phone number or pin")
