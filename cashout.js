@@ -2,9 +2,9 @@
 document.getElementById('cash-out-money-btn').addEventListener('click',function(event){
 
     event.preventDefault();
-    const cashOutAmount=document.getElementById('cash-out-amount').value;  //input field
+    const cashOutAmount=getINputElementById('cash-out-amount') //input field 
 
-    const pinNumber=document.getElementById('cash-out-pin').value;   //input field
+    const pinNumber= getINputElementById('cash-out-pin') //input field
 
     if(pinNumber==='1234'){
 
